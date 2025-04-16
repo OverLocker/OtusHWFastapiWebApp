@@ -10,6 +10,7 @@ GET http://127.0.0.1:8000/api/products/{product_id}
 Создать новый товар: 
 POST http://127.0.0.1:8000/api/products/ (с телом запроса в формате JSON)
 
+Пример запроса на создание:
 curl -X POST "http://127.0.0.1:8000/api/products/" \
 -H "Content-Type: application/json" \
 -d '{
